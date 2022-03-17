@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" media="print" href="./src/print.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="container">
+        <table>
+          <h1>فرم استخدام کارکنان</h1>
+<br>
+<br>
+          <tr>
+            <td>
+              <label for="degree">مدرک تحصیلی</label>
+            </td>
+            <td>
+              <select name="user" id="degree">
+                <option value="0" >دیپلم</option>
+                <option value="1" >کاردانی</option>
+
+                <option value="2" >کارشناسی</option>
+                <option value="3">کارشناسی ارشد </option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="age">سن</label>
+            </td>
+            <td>
+              <input type="number" id="age"  />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="workexperience">سابقه کار</label>
+            </td>
+            <td>
+              <input id="workexperience" type="number"  />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="salary">حقوق درخواستی </label>
+            </td>
+            <td>
+              <input type="number" id="salary"  />
+            </td>
+          </tr>
+          <tr>
+            <tr>
+              <td>
+                <label for="address">آیا ادرس شما نزدیک محل کار می باشد</label>
+              </td>
+              <td>
+                <input type="checkbox" id="address" />
+              </td>
+            </tr>
+            <td colspan="2">
+              <input type="button" id="btn" value="برسی شرایط" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section class="left">
+<h2 id="lefth2"></h2>
+<img id="imgleft" width="20%"/>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
